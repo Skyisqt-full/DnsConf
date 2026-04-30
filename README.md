@@ -5,6 +5,16 @@
 
 **Ready-to-run via GitHub Actions.** [Video guide](#step-by-step-video-guide-redirect-for-nextdns)
 
+## Portfolio note
+
+This repository demonstrates a Java automation utility with external API integration, scheduled GitHub Actions execution and configuration through environment variables/secrets.
+
+Commercially, the same pattern can be used for DNS policy automation, infrastructure housekeeping, account configuration sync or internal admin tooling.
+
+## What is mocked
+
+Nothing is mocked in the core flow, but real credentials must be provided through GitHub Actions secrets or local environment variables. The repository does not include provider API tokens.
+
 [General comparison: Cloudflare vs NextDNS](#cloudflare-vs-nextdns)
 
 [Setup credentials: Cloudflare](#cloudflare-credentials-setup)
